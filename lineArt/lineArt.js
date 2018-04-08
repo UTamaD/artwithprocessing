@@ -5,14 +5,12 @@ var z=0;
 
 function setup() {
   background(255);
-  size(1024, 1024);
+  createCanvas(512,512);
 }
 
 function draw() { 
-  stroke(0);
-  strokeWeight(2);
   if (i<width) {
-    i=i+10;
+    i=i+4;
     stroke(0);
     line(0, i, i, height);
     line(width-0, height-i, width-i, height-height);
