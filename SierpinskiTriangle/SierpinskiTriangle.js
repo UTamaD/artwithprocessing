@@ -10,7 +10,7 @@ function makeTri(var x1, var y1, var x2, var y2, var x3, var y3, var N) {
 
   }
 }
-var M=2;
+var M=4;
 function setup() {
   createCanvas(1000, 1000);
   background(255);
@@ -23,7 +23,7 @@ function draw() {
   triangle(width/4, height/2, width*3/4, height/2, width/2, height);
   makeTri(width/4, height/2, width*3/4, height/2, width/2, height, M);
 }
-
+/*
 function mousePressed() {
   M++;
-}
+}*/
