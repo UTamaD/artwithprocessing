@@ -15,7 +15,7 @@ function makeTri( x1,  y1,  x2,  y2,  x3,  y3,  N) {
 
 var M=0;
 function setup() {
-  createCanvas(1000, 1000);
+  createCanvas(700, 700);
   background(255);
   noFill();
 }
