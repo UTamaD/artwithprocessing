@@ -5,7 +5,7 @@ var g = 0;
 var b = 0;
 var countX = 0;
 function preload() {
-  img = loadImage('data/portrait1.jpg');
+  img = loadImage("data/portrait1.jpg");
 }
 
 function setup() {
