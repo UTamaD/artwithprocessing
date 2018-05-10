@@ -36,3 +36,7 @@ function mousePressed() {
   else if (a==25)a=30;
   else if (a==30)a=150;
 }
+
+function keyTyped(){
+if(key=='r')a=5;
+}
